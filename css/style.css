@@ -1,0 +1,55 @@
+* {
+    margin: 0%;
+    padding: 0.5%;
+    font-family: 'Garamond';
+    box-sizing: border-box;
+    position: relative;
+}
+
+.login-content {
+    background-color: #E5E5E5;
+    display: inline-block;
+    margin-left: 33%;
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 2%;
+}
+
+.login {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.campo {
+    border-radius: 10px;
+    height: 30px;
+    width: 350px;
+    align-items: center;
+    font-size: 15px;
+}
+
+label {
+    font-size: 18px;
+}
+
+#botao {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    width: 350px;
+    background-color: #50B460;
+    border-radius: 10px;
+}
+
+#botao:hover {
+    background-color: #459151;
+    transition: 0.4s;
+}
